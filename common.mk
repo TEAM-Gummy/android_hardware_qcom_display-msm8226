@@ -1,12 +1,12 @@
 #Common headers
-common_includes := hardware/qcom/display/libgralloc
-common_includes += hardware/qcom/display/liboverlay
-common_includes += hardware/qcom/display/libcopybit
-common_includes += hardware/qcom/display/libqdutils
-common_includes += hardware/qcom/display/libhwcomposer
-common_includes += hardware/qcom/display/libexternal
-common_includes += hardware/qcom/display/libqservice
-common_includes += hardware/qcom/display/libvirtual
+common_includes := hardware/qcom/display-msm8226-msm8226/libgralloc
+common_includes += hardware/qcom/display-msm8226/liboverlay
+common_includes += hardware/qcom/display-msm8226/libcopybit
+common_includes += hardware/qcom/display-msm8226/libqdutils
+common_includes += hardware/qcom/display-msm8226/libhwcomposer
+common_includes += hardware/qcom/display-msm8226/libexternal
+common_includes += hardware/qcom/display-msm8226/libqservice
+common_includes += hardware/qcom/display-msm8226/libvirtual
 
 ifeq ($(TARGET_USES_POST_PROCESSING),true)
     common_flags     += -DUSES_POST_PROCESSING
